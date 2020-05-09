@@ -13,11 +13,24 @@
     <div class="div4 text-success">
       <h1 class="input2">
         Number 1: <br />
-        <input type="text" id="numberInput1" class="input1" />
+        <input
+          class="input1"
+          type="number"
+          id="quantity"
+          name="quantity"
+          required
+        />
       </h1>
       <h1 class="input3">
         Number 2: <br />
-        <input type="text" id="numberInput2" class="input1" />
+        <input
+          type="number"
+          class="input1"
+          type="number"
+          id="quantity"
+          name="quantity"
+          required
+        />
       </h1>
     </div>
     <div>
@@ -27,8 +40,15 @@
       </button>
     </div>
     <div>&nbsp;</div>
-    <div id="result" class="text-success result">Calculation Result:</div>
-    <textarea class="result" id="w3mission" rows="1" cols="57"> </textarea>
+    <div id="result" class="text-success results">Calculation Result:</div>
+    <textarea class="result" id="message" rows="6" cols="260">
+      <p>Password must contain the following:</p>
+      <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+      <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+      <p id="number" class="invalid">A <b>number</b></p>
+      <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div> </textarea
+    >
     <script src="app.js"></script>
   </body>
 </html>
