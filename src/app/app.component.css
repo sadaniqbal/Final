@@ -1,0 +1,105 @@
+html {
+  background-color: white;
+  padding: px;
+}
+
+body {
+  background-color: white;
+  padding: px;
+  margin: 0;
+}
+
+.result {
+  margin-left: 2.7%;
+  font-size: 50px;
+}
+
+.results {
+  margin-left: 2.8%;
+  font-size: 50px;
+  border-radius: 5%;
+}
+
+.button {
+  margin-left: 3%;
+  border-radius: 5%;
+}
+
+.parent {
+  margin: 0px;
+  padding: 50px;
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.div2 {
+  font-size: 60px;
+}
+
+.div3 {
+  font-size: 20px;
+  margin: 5px;
+  height: 150px;
+}
+
+.div4 {
+  display: flex;
+  background-color: white;
+  margin-left: 1%;
+  width: px;
+  height: px;
+  border-radius: 10%;
+}
+
+.div5 {
+  display: block;
+  background-color: white;
+  margin: px;
+  width: px;
+}
+
+.div6 {
+  background-color: white;
+  width: 200px;
+}
+
+.div7 {
+  border-radius: 80%;
+  background-color: white;
+  margin: 5px;
+}
+
+.input1 {
+  border-color: #28a745;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 35px;
+  padding: 10px 70px;
+}
+
+.input2 {
+  font-size: 35px;
+  margin-left: 2%;
+}
+
+.input3 {
+  font-size: 35px;
+  margin-left: 25%;
+}
+
+button {
+  border-radius: 5%;
+  margin: 2px;
+  padding: 10px 10px;
+  background-color: white;
+  color: rgb(6, 193, 226);
+  text-align: center;
+  border: 1px solid rgb(6, 193, 226);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  outline: none;
+}
