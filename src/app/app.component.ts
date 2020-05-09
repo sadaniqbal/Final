@@ -7,7 +7,7 @@ for (var i = 2, l = Math.sqrt(num); i <= l; i++) {
   }
 }
 return true;
-}
+
 function range(f, t) {
 for (var i = f, r = []; i <= t; i++) {
   r.push(i);
